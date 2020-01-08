@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.a {
+	text-decoration: none;
+}
+
+
+.bg-beigh{
+background: rgba(255,250,225,1.00)
+}
+.item ul {
+	display:none;
+	text-decoration: none;
+	align-content: center;
+	margin: 0;
+}
+
+.li {
+	text-align: left;
+}
+
+.liston {
+	margin-left: -40px;
+}
+
+
+.lista {
+	color: black;
+	font: dosis;
+	background: rgba(108,0,1,1.00);
+	text-decoration: none;
+	left: 0px;
+}
+
+.lista hover {
+	text-decoration: none;
+	color: white;
+}
+
+.punt {
+	position: absolute;
+	right: 40px;
+	bottom: 40px;
+	opacity: 0%;
+	transition: opacity 2s;
+	}
+
+.punt.visible {
+	opacity: 100%;
+}
